@@ -5,16 +5,10 @@
 <web-app>
 	<display-name>Archetype Created Web Application</display-name>
 	<servlet>
-		<servlet-name>GetUserController</servlet-name>
-		<display-name>GetUserController</display-name>
-		<description></description>
-		<servlet-class>com.spring.servlets.GetUserController</servlet-class>
-	</servlet>
-	<servlet>
 		<servlet-name>NewUserController</servlet-name>
 		<display-name>NewUserController</display-name>
 		<description></description>
-		<servlet-class>com.spring.servlets.NewUserController</servlet-class>
+		<servlet-class>com.spring.controller.NewUserController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>NewUserController</servlet-name>
